@@ -17,19 +17,19 @@ int main()
     {
         cout << "\x1b[42m\x1b[30m Congratulations... Player 2 WON!!! \x1b[0m";
     }
-    if (player1 == "seasor" && player2 == "paper")
+    if (player1 == "scissor" && player2 == "paper")
     {
         cout << "\x1b[42m\x1b[30m Congratulations... Player 1 WON!!! \x1b[0m";
     }
-    if (player2 == "seasor" && player1 == "paper")
+    if (player2 == "scissor" && player1 == "paper")
     {
         cout << "\x1b[42m\x1b[30m Congratulations... Player 2 WON!!! \x1b[0m";
     }
-    if (player2 == "seasor" && player1 == "rock")
+    if (player2 == "scissor" && player1 == "rock")
     {
         cout << "\x1b[42m\x1b[30m Congratulations... Player 1 WON!!! \x1b[0m";
     }
-    if (player1 == "seasor" && player2 == "rock")
+    if (player1 == "scissor" && player2 == "rock")
     {
         cout << "\x1b[42m\x1b[30m Congratulations... Player 2 WON!!! \x1b[0m";
     }
